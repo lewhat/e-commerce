@@ -1,0 +1,58 @@
+body {
+	text-align:center;
+	position: relative;
+	top: 40px;
+}
+
+h1 {
+	font-size:70px;
+	font-weight: bolder;
+}
+#shoes h2 {
+	font-weight: bold;
+	color: orange;
+}
+.shoe {
+	margin:20px 0;
+}
+
+.act {
+	color: orange;
+}
+.fa {
+	color: #ccc;
+}
+
+
+#shoes .btn {
+	
+	font-size: 20px;
+	width:150px;
+	color:orange;
+	display:inline-block;
+	text-decoration:none;
+	border-radius:5px;
+	border:solid 3px #D94E3B;
+	background:transparent;
+	text-align:center;
+	padding: 20px;
+	transition: all 0.1s;
+    box-shadow:  4px 2px 4px #84261a;
+
+} 
+
+#shoes .btn:active{
+    box-shadow: 2px 2px 2px #84261a;
+    position:relative;
+    top:2px;
+}
+
+#shoes .btn:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
+.popUp:hover{
+	opacity: 1; 
+	-webkit-transform: scale3d(1.1,1.1,1.1);
+    transform: scale3d(1.1,1.1,1.1);
+}
